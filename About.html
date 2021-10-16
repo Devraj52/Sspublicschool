@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="Home.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About school</a></li>
+                <li><a href="Faculty.html">Faculty </a></li>
+                <li><a href="Administration.html">Administrations</a></li>
+                <li><a href="Syllabus.html">Syllabus</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Contact.html">Contact us</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About us</h1>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+    <!-- About us content -->
+
+    <section class="about-us">
+        <h1 class="we-are">We Are World's Best School</h1>
+        <div class="row">
+            <div class="about-col">
+                <p>The S. S. Public School were born out of the ideology that children must be given an environment that makes them want to come to school every day. The schools, which were founded in 1988 by Mrs. Manju Bharat Ram, follow her personal principle of promoting individuality through value-based education which promotes a global outlook yet retains intrinsic Indian cultural traditions. Her guidance has also led The S. S. Public Schools to lay a great emphasis on inclusiveness.</p>
+                <a href="" class="hero-btn red-btn">Explore Now</a>
+            </div>
+
+            <div class="about-col">
+                <img src="images/faculty.jpg" alt="image">
+            </div>
+        </div>
+    </section>
+
+     <!-- footer -->
+
+     <section class="footer">
+        <h4>Follow Us</h4>
+        <div class="icons">
+            <a href="#"><img src="images/facebook.png" alt="facebook" width="80px"></a>
+            <a href="#"><img src="images/twitter.png" alt="twitter" width="55px"></a>
+            <a href="#"><img src="images/Instagram.jpg" alt="Instagram" width="45px"></a>
+        </div>
+  
+        <p> Made with <img src="images/heart.jfif" alt="heart" width="30px"> by Devraj Singh</i></p>
+  
+    </section>
+      
+  </body>
+  </html>
+</body>
+</html>

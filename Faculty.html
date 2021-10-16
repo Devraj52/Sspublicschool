@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.N.S Inter College</title>
+    <link rel="stylesheet" href="faculty.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+    <nav>
+        <a href="Home.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-bars" aria-hidden="true" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About school</a></li>
+                <li><a href="Faculty.html">Faculty </a></li>
+                <li><a href="Administration.html">Administrations</a></li>
+                <li><a href="Syllabus.html">Syllabus</a></li>
+                <li><a href="Gallery.html">Gallary</a></li>
+                <li><a href="Contact.html">Contact us</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>Our Faculty</h1>
+        <p>Students are the gems and teachers are the gems maker and here you will <br> know more about our gems maker.</p>
+        <a href="#test-imonials" class="hero-btn">Know more</a>
+    </div>
+    </section>
+
+<!--directors desk-->
+
+    <div class="row-main">
+        <div class="test-imonials-col-main">
+            <img src="images/director.jpg">
+            <div>
+                <h1 style="color: red;"> Director's Desk</h1>
+                <p>To bring education to the door-steps of one and all, rich and poor, rural to urban, free from all social discriminations, was the dream of our founder manager. S S PUBLIC strives to fulfill his dream at every step. At S S PUBLIC SCHOOL we believe that education civilizes man by inculcating moral values and principles. Children need standard and clear philosophy of life, which distinguishes evil from good, and helps them to develop sound ideas and better vision of living out their social lives. Self-development is no doubt the most valuable intellectual development that we can give to our students. However, the importance of knowledge, scientific & analytical skills, vocational training and physical development are by no means of less significance.
+    
+                    In order to address the challenges of a rapidly changing world, one must learn to be a risk taker to become visionary and adventurous in dealing with the current social scenario. For this, it is very important to know where our strength and talents lie. At the end of the day we do need to take a good look at ourselves and what we are good at.
+                    
+                    We try our level best to provide infrastructural, economic support to the principal and staff, so that the standard of education could be improved from time to time. Innovative academic and technological support is provided to staff through conduction of CCE workshops for teachers and leadership workshop for principal to keep them updated with the present examination system and management skills.
+                    
+                    Rapid strides in technology and communications have made it possible to enliven education and we have incorporated all available aids to make studies exciting and stimulating. Education also has a social aim of making individuals responsible towards society and themselves.
+                    
+                    It is in fact a part of the function of education to help us escape, not from our own time — for we are bound by that — but from the intellectual and emotional limitations of our time.</p>
+                    
+            </div>
+        </div>
+    </div>
+
+    <!-- About Faculty -->
+
+    <section class="test-imonials" id="test-imonials">
+        <h1>What our student says</h1>
+        <p>Here is what our gems(students) says about our gems maker(teachers).</p>
+
+        <div class="row">
+            <div class="test-imonials-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>I am very grateful to have such teachers who made me able to learn and also supported me at every aspect of my studies and also increased by confidence. I can't tell in words what I feeling to having such great teachers. Thank you.  </p>
+                    <img src="images/star-rating.png" alt="rating">
+                </div>
+            </div>
+
+            <div class="test-imonials-col">
+                <img src="images/user2.jpg">
+                <div>
+                    <p>Hello, I am Harry and I am in final year of completing my Graduation. I am really thankful for having such magical teachers who made study very easy for me. For me teachers are not teachers they talk with me as a friend so I can share everything with them they just solve that problem. Thank you very much.</p>
+                    <img src="images/star-rating.png" alt="rating">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+<section class="footer">
+    <h4>Follow Us</h4>
+    <div class="icons">
+        <a href="#"><img src="images/facebook.png" alt="facebook" width="80px"></a>
+        <a href="#"><img src="images/twitter.png" alt="twitter" width="55px"></a>
+        <a href="#"><img src="images/Instagram.jpg" alt="Instagram" width="45px"></a>
+    </div>
+
+    <p> Made with <img src="images/heart.jfif" alt="heart" width="30px"> by Devraj Singh</i></p>
+
+</section>
+    
+</body>
+</html>

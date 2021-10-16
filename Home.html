@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S. S. Public School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+    <nav>
+        <a href="Home.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-bars" aria-hidden="true" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About school</a></li>
+                <li><a href="Faculty.html">Faculty </a></li>
+                <li><a href="Administration.html">Administrations</a></li>
+                <li><a href="Syllabus.html">Syllabus</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Contact.html">Contact us</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>S. S. Public School</h1>
+        <p>We are here to provide the best practical and therotical education from class PG to 12th.
+            <br> We provide 70% of Education by practical and 30% by theory that helps child to learn faster with visualitation.
+        </p>
+        <a href="#know-more" class="hero-btn">Visit Us To Know More</a>
+    </div>
+    </section>
+
+
+    <!-- Courses -->
+    
+    <section id="know-more" class="course">
+        <h1>Courses we offer</h1>
+        <p>Here are some courses provided by us.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Play Group to 5th</h3>
+            <p>The Education for chidren from Play Group to 5th grade should be based on creativity, manner and with visualization that helps and increase the IQ level of any child and affects the way of thinking. With us this all be possible very easily. </p>
+        </div>
+        <div class="course-col">
+            <h3>6th to 10th</h3>
+            <p>At this period of time the children are able to think and visualize and they just need a way to go and we are here to do it right. With us your child will not only learn but also develope the way of thinking and will become able to solve life problems.</p>
+        </div>
+        <div class="course-col">
+            <h3>11th & 12th</h3>
+            <p>This time the children are completely able to study by them self but they can't because of distractions. Accordding to a study 90% of students who are good at studies get into distraction at this time. With us will motivate them and make leaning easy.</p>
+        </div>
+    </div>
+
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+    <!-- Campus -->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Here is our global campus. Have a look at them!</p>
+        <div class="row">
+        <div class="campus-col">
+            <img src="images/london.png">
+            <div class="layer">
+                <h3>London</h3>
+            </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="images/newyork.png">
+            <div class="layer">
+                <h3>New York</h3>
+            </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="images/washington.png">
+            <div class="layer">
+                <h3>Washington</h3>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Facilities -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Have a look at facilities provided by us!</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <p>Center of learning new things!</p>
+            </div>
+        
+
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>World Class Play Ground</h3>
+                <p>Center of Refreshment after study!</p>
+            </div>
+            
+
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>World Class Cafe</h3>
+                <p>Center of Good Protein!</p>
+            </div>         
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section class="test-imonials">
+        <h1>What our student says</h1>
+        <p>Don't believe us! See what our students are saying.</p>
+
+        <div class="row">
+            <div class="test-imonials-col">
+                <img src="images/robin-patel.png">
+                <div>
+                    <p>Hi, This is Rohan Virdi a student of class grade 10 a proud student of S.S. Public School after coming here to grade 6 I am feeling that I have increased very much confidence to talk to any one. Before grade 6 I couldn't talk at social platforms but here I got something extra after studies.</p>
+                    <img src="images/star-rating.png" alt="rating">
+                </div>
+            </div>
+
+            <div class="test-imonials-col">
+                <img src="images/abhinav-singh.png">
+                <div>
+                    <p>Hi, I am Suhan Agrawal a student of S. S. Public School in grade 12. I came into this school when I was in grade 9 but after coming here I didn't want to go anywhere because the way of teachers teaching the right way that I got, I think this was no where. Thanks to S. S. Public School! </p>
+                    <img src="images/star-rating.png" alt="rating">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>Follow Us</h4>
+        <div class="icons">
+            <a href="#"><img src="images/facebook.png" alt="facebook" width="80px"></a>
+            <a href="#"><img src="images/twitter.png" alt="twitter" width="55px"></a>
+            <a href="#"><img src="images/Instagram.jpg" alt="Instagram" width="45px"></a>
+        </div>
+
+        <p> Made with <img src="images/heart.jfif" alt="heart" width="30px"> by Devraj Singh</i></p>
+
+    </section>
+
+</body>
+</html>

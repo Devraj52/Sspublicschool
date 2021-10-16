@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>S.N.S Inter College</title>
+        <link rel="stylesheet" href="administration.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="Home.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-bars" aria-hidden="true" onclick="hideMenu()"></i>
+                 <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About school</a></li>
+                    <li><a href="Faculty.html">Faculty </a></li>
+                    <li><a href="Administration.html">Administrations</a></li>
+                    <li><a href="Syllabus.html">Syllabus</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Contact.html">Contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Administration</h1>
+            <p>Students are the gems and teachers are the gems maker and here you will <br> know more about our gems maker.</p>
+            <a href="#test-imonials" class="hero-btn">Know more</a>
+        </div>
+        </section>
+
+        <script>
+        var navLinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+        <!-- Courses -->
+    
+    <section id="know-more" class="course">
+        <h1>Facilities</h1>
+        <p>Have a look at the facilities provided by us.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Computer lab</h3>
+            <img src="images/computer-lab.jpg" alt="computer-lab">
+        </div>
+        <div class="course-col">
+            <h3>Library</h3>
+            <img src="images/library2.jfif" alt="library">
+        </div>
+        <div class="course-col">
+            <h3>Sports ground</h3>
+            <img src="images/sports-ground.jpg" alt="">
+        </div>
+        <div class="course-col">
+            <h3>Cafeteria</h3>
+            <img src="images/indian-cafetreia.jpg" alt="">
+        </div>
+        <div class="course-col">
+            <h3>Prayer Assembly</h3>
+            <img src="images/prayer-assembly.jfif" alt="">
+        </div>
+        <div class="course-col">
+            <h3>Football Stadium</h3>
+            <img src="images/footbal-stadium.jfif" alt="">
+        </div>
+    </div>
+
+    </section>
+
+    <section class="students">
+        <div class="number">
+            <div class="stu-no">
+                <h4>Experience Since</h4>
+                <h1>1896</h1>
+            </div>
+            <div class="stu-no">
+                <h4>New course</h4>
+                <h1>15</h1>
+            </div>
+            <div class="stu-no">
+                <h3>More than</h3>
+                <h2>10,000</h2>
+                <h4>Number of students</h4>
+            </div>
+            <div class="stu-no">
+                <h3>More than</h3>
+                <h2>10,000</h2>
+                <h4>Number of students</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>Follow Us</h4>
+        <div class="icons">
+            <a href="#"><img src="images/facebook.png" alt="facebook" width="80px"></a>
+            <a href="#"><img src="images/twitter.png" alt="twitter" width="55px"></a>
+            <a href="#"><img src="images/Instagram.jpg" alt="Instagram" width="45px"></a>
+        </div>
+
+        <p> Made with <img src="images/heart.jfif" alt="heart" width="30px"> by Devraj Singh</i></p>
+
+    </section>
+
+
+</body>
+</html>
